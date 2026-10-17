@@ -15,6 +15,7 @@ const list2 = document.getElementById("list2");
 spawnCardTemplate(list2, "card3", "Learn to code");
 //#endregion
 
+//#region Drag Behaviour
 const cards = document.querySelectorAll(".card");
 const lists = document.querySelectorAll(".list");
 
@@ -61,3 +62,4 @@ function dragDrop(event) {
     this.appendChild(card);
     this.classList.remove("over");
 }
+//#endregion
